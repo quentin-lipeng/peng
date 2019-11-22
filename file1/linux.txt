@@ -1,0 +1,11 @@
+#linux 技巧
+
+	vim 
+
+	":set su 列出行号"
+	
+	<shell>
+
+	"sudo -i"  /暂时切换root身份登陆
+
+	
