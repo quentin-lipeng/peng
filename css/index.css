@@ -1,0 +1,363 @@
+body
+{
+    margin: 0px;
+    padding: 0%;
+    border:0px;
+}
+
+.top
+{
+    background-image: url(wallhaven.png);
+    height: 480px;
+}
+
+.navigation
+{
+    background-color: #f7f9fa;
+    transition: all 3s ease-in-out;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.top-nav-home
+{
+    height: 18px;
+}
+
+.name-user
+{
+    height: 30px;
+    float: left;
+}
+
+.pass-lock
+{
+    height: 25px;
+    float: left;
+    margin-right: 6px;
+}
+
+.con-github,.con-wechat,.con-email
+{
+    margin-top: 10px;
+    height: 30px;
+}
+
+.contact
+{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition-duration: 0.3s;
+    opacity: 0.3;
+}
+
+.contact:hover
+{
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    opacity: 1;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+
+ul.nav-top
+{
+    margin: 0em;
+    overflow:hidden;
+}
+li.nav-top
+{
+    float:left;
+    color: red;
+    font-size: 18px;
+    font-weight: 550;
+    width: 120px;
+    padding: 10px;
+}
+
+a{
+    text-decoration:none;
+    transition-duration:0.3s;
+
+}
+a.nav-a,a.nav-login{
+    opacity: 1;
+    font-weight:bold;
+    color:#8c9ca8;
+    text-align:center;
+    padding:4px;
+    text-transform:uppercase;
+    display: block;
+    text-shadow: 1px 1px 1px #aeb2b8;
+}
+
+a.nav-a:hover
+{
+    color:#657786;
+    opacity:1;
+    font-size: 23px;
+    font-family: monospace;
+    background-color: #d6dddf;
+    border-radius: 5px;
+    text-shadow: 8px 8px 6px #3d4147;
+    
+}
+
+.top-context
+{
+    color: #ffffff;
+    font-size: 3rem;
+    position: absolute;
+    left: 30%;
+    top: 18%;
+}
+h1.welcome
+{
+    text-shadow: 6px 6px 4px #464a50;
+}
+
+h1.welcome::after
+{
+    content: "Welcome My Friend";
+}
+
+.wel-reg
+{
+    height: 30px;
+    float: right;
+    margin-left: 10px;
+}
+
+.join
+{
+    padding: 4px;
+    font-size: 28px;
+    color: #cddeeb;
+    position: relative;
+    float: right;
+}
+
+.join:hover
+{
+    background-color: #414141;
+    border-radius: 5px;
+}
+
+.context
+{
+    height: 300px;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 140px;
+}
+
+.context1
+{
+    float: left;
+    background-color: rgb(247, 249, 250);
+    width: 38%;
+    height: 260px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+}
+
+.context2
+{
+    margin-left: 150px;
+    float: left;
+    background-color: rgb(247, 249, 250);
+    height: 260px;
+    width: 33%;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+}
+
+.sponser
+{
+    height: 40px;
+    float: left;
+    margin-left: 110px;
+    padding: 0px;
+    transition-duration: 0.3s;
+}
+
+.sponser:hover
+{
+    margin: 3px 0px 0px 113px ;
+    height: 48px;
+}
+
+.sponser-face
+{
+    height: 40px;
+    float: left;
+    margin-left: 110px;
+    padding: 0px;
+    transition-duration: 0.3s;
+}
+
+.sponser-ali
+{
+    height: 40px;
+    float: left;
+    margin-left: 110px;
+    padding: 0px;
+    transition-duration: 0.3s;
+    border-radius: 6px;
+}
+
+.sponser-ali:hover
+{
+    margin: 3px 0px 0px 113px ;
+    background-color: rgb(236, 171, 117);
+    height: 48px;
+}
+
+
+.sponser-face:hover
+{
+    margin: 3px 0px 0px 113px ;
+    background-color: rgb(98, 140, 230);
+    height: 48px;
+
+}
+
+.sponser-github
+{
+    height: 24px;
+    margin: 10px 1px 1px 83px ;
+    transition-duration: 0.3s;
+}
+
+.sponser-github:hover
+{
+    margin: 13px 1px 1px 86px ;
+    height: 30px;
+}
+
+.context-h
+{
+    text-align: center;
+}
+
+.context-h:hover
+{
+    color: rgb(228, 153, 83);
+}
+
+.context-p
+{
+    margin: auto;
+    /* margin-left: 20%; */
+    position: relative;
+}
+
+.context-p1
+{
+    margin-top: 100px;
+    position: relative;
+}
+
+footer
+{
+    float: right;
+
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.register
+{
+    margin: auto;
+    margin-left: 26%;
+    margin-top: 65px;
+}
+
+input
+{
+    width:55%;
+    height: 30px;
+    box-shadow: 2px 2px 1px rgb(152, 158, 168);
+    border-radius: 4px;
+    border-color: #d7dee7;
+    display:inline-block;
+}
+
+input:focus,input:hover
+{
+    background-color: #a2a9b4;
+}
+
+input
+{
+    margin-bottom:20px;
+    margin-left: 8px;
+}
+
+input[type="submit"]
+{
+    margin-left: 25%;
+    width:110px;
+    height: 26px;
+    font-family: Verdana, Arial;
+    color: rgb(92, 96, 105);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.main-body
+{
+    margin-left: 50px;
+    margin-bottom: 20%;
+}
+
+.main-body-header
+{
+    margin-top: 30px;
+    background-color: rgb(241, 241, 239);
+    text-align: center;
+}
+
+.sec1
+{
+    background-color: #f0f3f7;
+    float: left;
+    margin: auto;
+    margin-left: 90px;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 2px 5px #888888;
+    padding: 0%;
+}
+
+.mb-head
+{
+    color: #832c2c;
+    text-align: center;
+}
+
+.sec1-header
+{
+    background-color: #aab2be;
+    width: 90%;
+    height: 15%;
+    margin-left: 4%;
+    margin-top: 8%;
+    border-radius: 4px;
+    text-align: center;
+}
+
+table
+{
+    width: 260px;
+    height: 100px;
+    border: 2px solid rgb(143, 133, 126);
+    margin-left: 10%;
+}
